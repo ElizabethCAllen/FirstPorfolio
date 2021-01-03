@@ -1,0 +1,246 @@
+
+p{
+  font-family: 'IM fell english sc', sans-serif;
+}
+
+.navbar-default{
+  background-color: transparent;
+  border-color: transparent;
+  font-family: 'IM fell english sc', sans-serif;
+}
+.logo-img{
+  height: 40px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+  color:#FFF;
+  background-color: rgba(17,17,17,.5);
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+  color: #004800;
+}
+.navbar-default .navbar-nav>li>a{
+  color:black;
+  text-shadow: 1px 1px 2px #0a0a0a;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.jumbotron{
+  background-size:
+  height: 15em;
+  font-family: 'IM fell english sc', sans-serif;
+  text-align: center;
+  background-image: url('../img/rawpixel-557126-unsplash.jpg');
+  background-size: cover;
+  color: black;
+  background-position: right;
+}
+.header-text{
+  padding-top: 2em;
+  padding-bottom: 3em;
+}
+
+#about_me .col-md-4{
+  padding: 0;
+  height: 491px;
+}
+.it-me{
+  width: 400px;
+  height:30em;
+  padding: 0;
+  justify-content: flex-start;
+
+}
+.about-me{
+  border-bottom: 2px solid #04005E;
+  font-family: 'Satisfy', cursive;
+  text-align: center;
+  font-size: 60px;
+  color: #04005E;
+}
+.about-text{
+  font-family: 'IM fell english sc', sans-serif;
+  font-size: 2em;
+  text-align:justify;
+}
+
+#skills{
+  background-image: url('../img/tim-bish-584508-unsplash.jpg');
+  background-size: cover;
+  min-height: 600px;
+}
+#skills h1{
+  color: #000;
+    font-family: 'Satisfy', cursive;
+}
+#skills h3{
+  text-align: center;
+  font-family: 'Satisfy', cursive;
+}
+#skills a{
+  color: #3D382B;
+  font-family: 'IM fell english sc', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#skills .container{
+  margin-bottom: 5em;
+}
+#skills .tab-pane .row{
+  margin: 0;
+}
+#skills .tab-content .bgc{
+  background-color: #fff;
+  padding:10px;
+  max-height: 600px;
+}
+.skills-tabs{
+  max-height: 600px;
+}
+.bsl{
+  height: 348px;
+}
+.img-thumbnail {
+    display: flex;
+    text-align: center;
+}
+#services p{
+  font-size: 20px;
+}
+
+#portfolio .container-fluid{
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+.portfolio-box {
+  position: relative;
+  display: block;
+  max-width: 650px;
+}
+.portfolio-box .portfolio-box-caption {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  background: rgba(0, 72, 0, 0.9);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+  font-size: 18px;
+}
+
+.portfolio-box:hover .portfolio-box-caption {
+  opacity: 1;
+}
+
+.portfolio-box:focus {
+  outline: none;
+}
+
+@media (min-width: 768px) {
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    font-size: 16px;
+  }
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 22px;
+  }
+}
+#portfolio img{
+
+}
+
+#contact{
+  background-color: #007700;
+  color: #FFF;
+  padding-bottom:  50px;
+  font-family: 'IM fell english sc', sans-serif;
+
+}
+#contact h1{
+  font-family: 'Satisfy', cursive;
+  font-weight: 700;
+  font-size: 4em;
+  margin-top: 50px;
+}
+#contact form{
+  background-color: #004800;
+  border: 1px solid black;
+  padding: 15px;
+}
+#contact .form-group span{
+  color:gold;
+}
+
+#contact .icon{
+  font-size: 5em;
+  margin: 1em;
+}
+.insta{
+  color: #1DA1F2;
+}
+.gh{
+  color: white;
+}
+.fcb{
+  color: #4867AA;
+}
+.linkedin{
+ color: #007BB6;
+}
+.tumblr{
+  color: #36465D;
+}
+
+.name{
+  color: gold;
+  text-decoration: none;
+  font-family: 'Satisfy', cursive;
+  font-weight: 700;
+  font-size: 2em;
+  padding-left: 4em;
+}
+.name:hover,.city:hover,
+.phone:hover{
+  color: gold;
+  text-decoration: none;
+
+
+}
+.street,
+.city,
+.phone{
+  color:gold;
+  font-family: 'IM fell english sc', sans-serif;
+  padding-left: 4em;
+  text-decoration: none;
+}
+.map{
+  padding-left: 5em;
+}
